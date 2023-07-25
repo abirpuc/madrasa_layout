@@ -6,16 +6,33 @@ import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import { videoData } from '../../Data/videoGallerydata';
 import { Link } from 'react-router-dom';
 const vidoCarousel = () => {
+
+    const options = {
+        loop:true,
+        margin: 10,
+        responsiveClass: true,
+        autoplay:true,
+        smartSpeed: 1000,
+        responsive:{
+            0:{
+                items: 1,
+            },
+            400:{
+                items: 1,
+            },
+            700:{
+                items: 3,
+            },
+            1000:{
+                items: 3,
+            }
+        } 
+    }
     return (
         <div className='owl_carousel'>
             <OwlCarousel
-                className="owl-theme"
-                items="3"
-                autoplay
-                nav
-                dots
-                loop
-                margin={10}
+                 className = "slider-items owl-carousel"
+                 {...options}
             >
                 {
                     videoData.map(videoItem =>

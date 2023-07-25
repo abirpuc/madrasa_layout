@@ -276,3 +276,9 @@
     }
     
 }
+
+@media screen and (max-width: 380px) {
+    .nav-bar-container{
+        width: 148%;
+    }
+}

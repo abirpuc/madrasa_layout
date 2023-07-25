@@ -45,7 +45,7 @@
     } */
     .top_banner{
         width: 98%;
-        margin: 0 auto;
+        margin: 16px auto;
         padding: 0;
     }
 
@@ -90,5 +90,12 @@
     .text_container h1{
         line-height: 25px;
         font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .top_banner_container{
+        width: 150%;
     }
 }

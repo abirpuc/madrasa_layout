@@ -1,0 +1,29 @@
+.salat__time-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.salat__name{
+    width: 50%;
+    background-color: black;
+    color: yellow;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 3px 0;
+}
+
+.salat__time{
+    width: 50%;
+    background-color: black;
+    color: greenyellow;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 0;
+}
