@@ -1,0 +1,14 @@
+.text-slider-container{
+    width: 97%;
+    height: 40px;
+    overflow: hidden;
+    background-color: #e7e7e7;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text-slider-container p{
+    margin: 0 10px;
+    display: inline-block;
+}

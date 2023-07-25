@@ -1,0 +1,16 @@
+
+.admission-container h3{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.admission-container p{
+    font-size: 11px;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 15px;
+    padding: 0 20px;
+}
+
+.admission-container p b{
+    font-size: 11px;
+}

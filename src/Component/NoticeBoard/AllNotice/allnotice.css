@@ -1,0 +1,64 @@
+
+
+.search__field{
+    margin-left: 400px;
+}
+
+.input__field{
+    margin-left: 5px;
+    padding: 8px;
+    outline: none;
+}
+
+.rdt_Table {
+    width: 68%; /* Set the desired width */
+  }
+  
+
+.rdt_TableHeader {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+
+table, td, th{
+    border: 1px solid black;
+}
+
+td, th{
+    padding: 10px;
+}
+tr:hover{
+    background-color:#d3d3d3 ;
+}
+tr:nth-child(even){
+    background-color: #d3d3d3;
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.id{
+    width: 50px;
+}
+.name{
+    width: 500px;
+}
+.pub__date{
+    width: 50px;
+}
+.view{
+    width: 20px;
+}
+.download{
+    width: 40px;
+}
+
+.table__icon{
+    font-size: 20px;
+    color: black;
+}

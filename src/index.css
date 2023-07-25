@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('./assets/asset-20.gif');
+  background-position: center;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* background-attachment: fixed; */
+}
+
+h3{
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+}
+
+p{
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  body{
+    padding: 0 10px
+  }
+}

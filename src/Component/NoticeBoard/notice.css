@@ -1,0 +1,151 @@
+.notice-container{
+    border: 1px solid #8b8a8a;
+    position: relative;
+    background-color: rgb(240, 239, 239);
+    /* height: 355px; */
+    margin-top: 10px;
+}
+
+.notice-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.notice-container h1{
+    z-index: 999;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.listItem{
+   margin-left: 80px;
+   display: flex;
+   flex-direction: column;
+}
+
+.listItem>ul>a{
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color: black;
+}
+
+.icon{
+    color: #2eec2e;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.notice-btn{
+    cursor: pointer;
+    padding: 8px 0;
+    border: none;
+    width: 15%;
+    margin-bottom: 20px;
+    margin-left: 70%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(207, 207, 207) 0%, rgb(122, 122, 122) 100%);
+}
+.notice-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.noticeCard-container{
+    display: flex;
+    gap: 10px;
+}
+.notice-card{
+    width: 50%;
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+
+.notice-card img{
+    width: 100%;
+}
+
+.notice-card-btn{
+    padding: 15px auto;
+    background-color: #348a47;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) {
+    .notice-btn{
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 30%;
+        margin-left: 60%;
+    }
+
+    .notice-card{
+        width: 50%;
+        margin-top: 50px;
+        border: 1px solid gray;
+    }
+
+    .notice-card img{
+        width: 100%;
+    }
+
+    .route-card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .route-card p{
+       text-align: center;
+        font-size: 16px;
+    }
+    .route-content{
+        margin-left: 60px;
+    }
+    .noticeCard-container{
+        width: 100%;
+        flex-direction: column;
+        margin-right: 8px;
+    }
+
+    .notice-card{
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .notice-card img{
+        width: 100%;
+    }
+
+    .notice-btn{
+        margin-left: 50%;
+        margin-bottom: 10px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .route-card{
+        text-align: center;
+        width: 92%;
+    }
+    .route-card p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .listItem{
+        margin-left: 5px;
+     }
+
+     .notice-btn{
+        width: 40%;
+     }
+}

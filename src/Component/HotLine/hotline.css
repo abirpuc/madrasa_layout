@@ -1,0 +1,10 @@
+.hotline-container{
+    margin-top: 20px;
+}
+
+.hotline-container img{
+    width: 96%;
+    margin: 20px auto;
+    padding: 10px 5px;
+    /* box-shadow: -2px 2px 5px ; */
+}

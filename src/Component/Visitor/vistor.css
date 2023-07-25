@@ -1,0 +1,22 @@
+.visitor-container{
+    margin-top: 20px;
+}
+
+.visitor-container h3{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    width: 80%;
+    margin: 20px 18px;
+    text-shadow: 5px 5px 63px gray;
+}
+
+.user-container{
+    padding: 0 10px;
+    margin-top: 0;
+}
+
+.user-container p{
+    font-size: 20px;
+    margin: 5px;
+}

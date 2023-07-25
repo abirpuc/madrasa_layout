@@ -1,0 +1,18 @@
+.important-link{
+    margin-top: 10px;
+    
+}
+
+.important-link a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 11px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.important-link a i{
+    color: rgb(15, 243, 15);
+    margin-right: 5px;
+}

@@ -1,0 +1,47 @@
+.director{
+    text-align: center;
+}
+.director img{
+    margin: 10px ;
+    width: 150px;
+    height: 150px;
+}
+
+.director-info{
+    margin-top: 0;
+    text-align: center;
+    font-size: 13px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.director-info p{
+    margin-top: 0;
+    line-height: 20px;
+}
+
+.director__name{
+    font-size: 18px;
+}
+
+.director__designation{
+    color: green;
+}
+
+.bani__btn{
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: green;
+}
+
+@media screen and (max-width: 750px) {
+    
+    .director img{
+        height: auto;
+    }
+}

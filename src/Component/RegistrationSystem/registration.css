@@ -1,0 +1,19 @@
+.registration-container h1{
+    margin: 40px 0 0 20px;
+    font-size: 20px;
+}
+.registration-container h3{
+    margin: 10px 0 0 20px;
+    font-size: 16px;
+}
+.registration-container p{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 15px;
+    padding: 0 20px;
+}
+
+.registration-container p b{
+    font-size: 12px;
+}

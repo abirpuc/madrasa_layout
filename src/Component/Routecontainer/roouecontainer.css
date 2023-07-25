@@ -1,0 +1,84 @@
+.route-card-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   margin-top: 20px;
+}
+
+.route-card{
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 3px solid #c7c7c7;
+    border-bottom: 3px solid #c7c7c7;
+    margin-top: 10px;
+    padding: 10px;
+    width: 94%;
+    background-color: #e9e9e9;
+    box-shadow: 1px 1px 7px gray;
+}
+/* .route-card p{
+    font-weight: bold;
+} */
+
+.router__title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.route-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.route-content img{
+    width: 100px;
+    height: 100px;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+}
+.single-items{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 2px 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.single-items i{
+    color: #2adf2a;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .route-card-container{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .route-card{
+        width: 96%;
+    }
+    .route-card p{
+        margin-left: 0px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    .route-content{
+        justify-content: space-evenly;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    .route-card{
+        width: 90%;
+    }
+    .route-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}

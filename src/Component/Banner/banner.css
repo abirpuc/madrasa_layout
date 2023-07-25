@@ -1,0 +1,37 @@
+.carousel-container{
+    position: relative;
+}
+
+.carousel-img{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-img img{
+    width: 100%;
+    transition: all 2s;
+}
+
+/* carousel design */
+
+.button{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding: 0 -40px;
+    justify-content: space-between;
+    align-items: center;
+    top: 40%;
+}
+
+.banner__btn{
+    font-size: 30px;
+}
+
+.button button{
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}

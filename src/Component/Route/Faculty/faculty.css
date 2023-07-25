@@ -1,0 +1,68 @@
+
+@media screen and (max-width: 750px) {
+    table{
+        width: 90%;
+    }
+    .table__img{
+        width: 150px;
+        height: 160px;
+        padding: 0 40%;
+    }
+    .table__img img{
+        width: 150px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .our-faculty-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .our-faculty-info tr{
+        width: 60%;
+    }
+
+    .our-faculty-info td{
+        width: 19%;
+    }
+}
+@media screen and (max-width: 400px) {
+    table{
+        width: 60%;
+    }
+    .table__img{
+        width: 150px;
+        height: 160px;
+    }
+    .our-faculty-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .our-faculty-info tr{
+        width: 60%;
+    }
+
+    .our-faculty-info td{
+        width: 19%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    table{
+        width: 40%;
+    }
+    .table__img{
+        width: 150px;
+        height: 160px;
+    }
+    .our-faculty-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .our-faculty-info tr{
+        width: 40%;
+    }
+
+    .our-faculty-info td{
+        width: 10%;
+    }
+}

@@ -1,0 +1,12 @@
+.history-container h1{
+    margin: 40px 0 0 20px;
+    font-size: 20px;
+}
+.history-container p{
+    font-size: 11px;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    text-indent: 15px;
+    padding: 0 20px;
+}

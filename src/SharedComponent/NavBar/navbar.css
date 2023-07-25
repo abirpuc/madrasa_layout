@@ -1,0 +1,278 @@
+.nav-bar-container{
+    width: 79.8%;
+    margin:0 auto;
+    border: 1px solid #979797;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: -17px;
+}
+
+.hover-items-container{
+    align-items: left;
+    display: none;
+    width: 160px;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    transition: .3s;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.hover-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.hover-item{
+    color: #000;
+    padding: 7px 20px;
+    border-bottom: .5px solid #000;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.nav-bar{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 5px 0;
+}
+
+.nav-item{
+    font-size: 11px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-right: 1px dotted;
+    color: #000;
+}
+.nav-item:hover{
+    color:#fff;
+}
+.home:hover{
+    color:black
+}
+.nav-item-campus{
+    color: orangered
+}
+
+.nav-item-campus:hover{
+    background-color: orangered;
+    color: white;
+}
+.nav-item-campus:hover .dropdown-campus{
+    display: block;
+    border-top: 4px solid orangered;
+}
+
+.vorthi{
+    color: #31c431;
+}
+
+.vorthi:hover{
+    background-color: #31c431;
+    color: white;
+}
+
+.vorthi:hover .dropdown-vorthi{
+    display: block;
+    border-top: 4px solid #31c431;
+}
+
+.course{
+    color: purple
+}
+
+.course:hover{
+    background-color: purple;
+    color: #fff;
+}
+
+.course:hover .dropdown-course{
+    display: block;
+    border-top: 4px solid purple;
+}
+
+.management{
+    color:#e7a108
+}
+.management:hover{
+    background-color:#e7a108;
+}
+
+.management:hover .dropdown-management{
+    display: block;
+    border-top: 4px solid #e7a108;
+}
+
+.academy{
+    color: #4141b1;
+}
+
+.academy:hover{
+    background-color: #4141b1;
+}
+
+.academy:hover .dropdown-academy{
+    display: block;
+    border-top: 4px solid #4141b1;
+}
+.student{
+    color: #04e935;
+}
+
+.student:hover{
+    background-color: #04e935;
+}
+
+.student:hover .dropdown-student{
+    display: block;
+    border-top: 4px solid #04e935;
+}
+.result{
+    color: #3e9eec;
+}
+
+.result:hover{
+    background-color: #3e9eec;
+}
+
+.result:hover .dropdown-result{
+    display: block;
+    border-top: 4px solid #3e9eec;
+}
+.resource{
+    color: #052363;
+}
+
+.resource:hover{
+    background-color: #052363;
+}
+
+.resource:hover .dropdown-resource{
+    display: block;
+    border-top: 4px solid #052363;
+}
+.gallery-item{
+    color: #034206;
+}
+
+.gallery-item:hover{
+    background-color: #034206;
+}
+
+.gallery-item:hover .dropdown-gallery-item{
+    display: block;
+    border-top: 4px solid #034206;
+}
+
+.communication{
+    color: red;
+}
+.communication:hover{
+    background-color: red;
+}
+.payment{
+    color: #fff;
+    background-color: #034206;
+}
+.payment:hover{
+    background-color: #052363;
+}
+
+.mobile-view{
+    display: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.mobile-view i{
+    padding: 10px;
+    background-color: #979797;
+}
+
+.mobile-nav-var-container{
+    display: none;
+}
+
+.nav-bar-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-bar-container{
+        width: 98%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .mobile-nav-var-container{
+        display: block;
+    }
+    .nav-bar-container{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .display{
+        display: none;
+    }
+    .nav-bar-mobile{
+        width: 98%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .hover-items-container{
+        display: none;
+        background-color: #fff;
+    }
+
+
+    .hover-item{
+        border-bottom: none;
+    }
+
+    .hover-item-mobile-view{
+        display: block;
+    }
+
+    .nav-item-campus:hover .hover-items-container{
+        display: none;
+        background-color: #fff;
+        color: white;
+    }
+    .vorthi:hover .hover-items-container{
+        display: none;
+    }
+    .course:hover .hover-items-container{
+        display: none;
+    }
+    .management:hover .hover-items-container{
+        display: none;
+    }
+    .academy:hover .hover-items-container{
+        display: none;
+    }
+    .student:hover .hover-items-container{
+        display: none;
+    }
+    .result:hover .hover-items-container{
+        display: none;
+    }
+    .resource:hover .hover-items-container{
+        display: none;
+    }
+    .gallery-item:hover .hover-items-container{
+        display: none;
+    }
+    
+}

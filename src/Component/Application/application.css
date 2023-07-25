@@ -1,0 +1,17 @@
+
+.application-container h3{
+    margin: 10px;
+    font-size: 18px;
+}
+.application-container p{
+    font-size: 11px;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    text-indent: 15px;
+    padding: 0 20px;
+}
+
+.application-container p b{
+    font-size: 16px;
+}
